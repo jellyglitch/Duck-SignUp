@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'rubikregular';
+    src: url('fonts/rubik-regular-webfont.woff2') format('woff2'),
+         url('fonts/rubik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'snigletextrabold';
+    src: url('fonts/sniglet-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/sniglet-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'rubikregular', sans-serif; 
+}
+
 h1 {
-    color: blueviolet;
+
+    font-family: 'snigletextrabold', sans-serif; 
+   
 }
